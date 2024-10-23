@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+#imageContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Para que as imagens se ajustem se a largura for pequena */
+}
+
+.img-option {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 5px; /* Espaçamento entre as imagens */
+    cursor: pointer; /* Muda o cursor para indicar que a imagem é clicável */
+}
+
+button {
+    margin-top: 20px; /* Espaçamento acima do botão */
+    padding: 10px 20px; /* Tamanho do botão */
+    font-size: 16px; /* Tamanho da fonte do botão */
+}

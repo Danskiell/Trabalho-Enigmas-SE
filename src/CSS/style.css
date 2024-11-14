@@ -1,0 +1,85 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: url(../images/bg-desktop.svg)center center no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    background-size: cover;
+    margin: 30px 40px;
+}
+
+.header{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header img{
+    width: 220px;
+    margin-right: 10px;
+}
+
+.header h2{
+    font-size: 3rem;
+    color: #000;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Open Sans', sans-serif;
+    margin: 100px 0;
+}
+
+.main .image img{
+    width: 100%;
+}
+
+.main .info{
+    margin: 50px 70px;
+}
+
+.main .info h1{
+    font-size: 4.5rem;
+    max-width: 500px;
+    color: #fff;
+}
+
+.main .info p{
+    font-size: 2.3rem;
+    color: rgb(226, 220, 220);
+    margin: 30px 0;
+    max-width: 670px;
+    margin-bottom: 45px;
+    line-height: 30px;
+}
+
+.main .info a{
+    border-radius: 50px;
+    background-color: #fff;
+    color: rgb(101, 45, 116);
+    font-size: 1.8rem;
+    padding: 14px 65px;
+    transition: 0.3s ease-in-out;
+}
+
+.main .info a:hover{
+    color: #fff;
+    background-color: hsl(300, 69%, 71%);
+}
+
+.footer{
+    position: absolute;
+    bottom: 50px;
+    right: 80px;
+}
+
+.footer a i{
+    font-size: 4rem;
+    padding: 0 10px;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+}
+
+.footer a i:hover{
+    color: hsl(300, 67%, 59%);
+}

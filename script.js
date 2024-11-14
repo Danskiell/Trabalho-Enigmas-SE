@@ -1,51 +1,51 @@
 let enigmas = [
     {
         dica: "Dica 1: Primeiro texto pro Jigsaw dar a dica.",
-        correta: "images/img1.jpg",
+        correta: "src/images/img1.jpg",
         opcoes: [
-            "img/enigma.jpg",
-            "images/img2.jpg",
-            "images/img3.jpg",
-            "images/img4.jpg",
-            "images/img5.jpg",
-            "images/img6.jpg"
+            "src/images/enigma.jpg",
+            "src/images/img2.jpg",
+            "src/images/img3.jpg",
+            "src/images/img4.jpg",
+            "src/images/img5.jpg",
+            "src/images/img6.jpg"
         ]
     },
     {
         dica: "Dica 2: Segundo texto pro Jigsaw dar a dica.",
-        correta: "images/img2.jpg",
+        correta: "src/images/img2.jpg",
         opcoes: [
-            "images/img2.jpg",
-            "images/img3.jpg",
-            "images/img4.jpg",
-            "images/img5.jpg",
-            "images/img6.jpg",
-            "images/img7.jpg"
+            "src/images/img2.jpg",
+            "src/images/img3.jpg",
+            "src/images/img4.jpg",
+            "src/images/img5.jpg",
+            "src/images/img6.jpg",
+            "src/images/img7.jpg"
         ]
     },
     {
         dica: "Dica 3: Terceiro texto pro Jigsaw dar a dica.",
-        correta: "images/img3.jpg",
+        correta: "src/images/img3.jpg",
         opcoes: [
-            "images/img3.jpg",
-            "images/img4.jpg",
-            "images/img5.jpg",
-            "images/img6.jpg",
-            "images/img7.jpg",
-            "images/img8.jpg"
+            "src/images/img3.jpg",
+            "src/images/img4.jpg",
+            "src/images/img5.jpg",
+            "src/images/img6.jpg",
+            "src/images/img7.jpg",
+            "src/images/img8.jpg"
         ]
     },
 
     {
         dica: "Dica 4: Quarto texto pro Jigsaw dar a dica.",
-        correta: "images/img4.jpg",
+        correta: "src/images/img4.jpg",
         opcoes: [
-            "images/img4.jpg",
-            "images/img5.jpg",
-            "images/img6.jpg",
-            "images/img7.jpg",
-            "images/img8.jpg",
-            "images/img9.jpg"
+            "src/images/img4.jpg",
+            "src/images/img5.jpg",
+            "src/images/img6.jpg",
+            "src/images/img7.jpg",
+            "src/images/img8.jpg",
+            "src/images/img9.jpg"
         ]
     }
 

@@ -1,17 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo de Enigmas</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/CSS/enigma.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1 id="dica">Dica: Escolha a imagem correta!</h1>
-    
-    <div id="imageContainer"></div> 
-    
-    <button id="nextButton">Próximo Enigma</button>
+    <header>
+        <h1 id="tituloEnigma">Enigma <span id="numeroEnigma">1</span></h1>
+        <h2 id="dica">Dica: Escolha a imagem correta!</h2>
+    </header>
+
+    <main>
+        <div id="imageContainer" class="image-grid"></div>
+    </main>
+
+    <footer>
+        <p>© 2024 Jogos quase mortais.</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>

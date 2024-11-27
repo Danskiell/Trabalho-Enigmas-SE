@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranking</title>
+    <link rel="stylesheet" href="src/CSS/ranking.css">
+</head>
+<body>
+    <div class="ranking-container">
+        <h1>Ranking dos Jogadores</h1>
+        <table id="rankingTable">
+            <thead>
+                <tr>
+                    <th>Posição</th>
+                    <th>Nome</th>
+                    <th>Erros</th>
+                    <th>Tempo (segundos)</th> 
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <button onclick="window.location.href='index.html'">Voltar ao Início</button>
+    </div>
+    <script>
+        const ranking = JSON.parse(localStorage.getItem('ranking')) || [];
+        const tableBody = document.querySelector('#rankingTable tbody');
+
+        ranking.forEach((player, index) => {
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                <td>${index + 1}</td>
+                <td>${player.name}</td>
+                <td>${player.errors}</td>
+                <td>${player.time}</td> <!-- Exibe o tempo -->
+            `;
+            tableBody.appendChild(row);
+        });
+    </script>
+</body>
+</html>

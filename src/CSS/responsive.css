@@ -1,54 +1,33 @@
-@media (max-width: 425px) {
-  body {
-    background: url(../images/bg-mobile.svg) center center no-repeat;
-    background-size: cover;
-    background-color: hsl(257, 40%, 49%);
-    position: relative;
-    margin: 0;
+@media (max-width: 768px) {
+  .welcome-title {
+    font-size: 3rem;
   }
 
-  .header {
-    margin: 20px 30px;
+  .welcome-description {
+    font-size: 1.6rem;
   }
 
-  .main {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    margin: 0 25px;
-  }
-
-  .main .image img{
-    width: 360px;
-    height: 70vh;
-  }
-
-  .main .info{
-    margin: 0 10px;
-    text-align: center;
-    margin-bottom: 180px;
-  }
-
-  .main .info h1{
-    font-size: 3.5rem
-  }
-
-  .main .info p{
-    font-size: 2.5rem
-  }
-
-  .main .info a{
-    font-size: 2rem;
-  }
-
-  .footer{
-    bottom: 50px;
-    right: 125px;
-    position: absolute;
+  .start-btn {
+    font-size: 1.8rem;
+    padding: 10px 30px;
   }
 }
 
-@media(width: 1440px){
-    body{
-        height: 80vh;
-    }
+@media (max-width: 425px) {
+  .logo-jogo img {
+    width: 100px;
+  }
+
+  .welcome-title {
+    font-size: 2.5rem;
+  }
+
+  .welcome-description {
+    font-size: 1.4rem;
+  }
+
+  .start-btn {
+    font-size: 1.6rem;
+    padding: 10px 20px;
+  }
 }
